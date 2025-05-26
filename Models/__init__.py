@@ -7,7 +7,7 @@ class Base(DeclarativeBase):
 
 db = SQLAlchemy(model_class=Base)
 
-DATABASE_URL = 'sqlite:///../data.db'
+DATABASE_URL = 'sqlite:///data.db'
 
 
 
